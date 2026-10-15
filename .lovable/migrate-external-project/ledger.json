@@ -1,10 +1,10 @@
 {
   "source": "code-archive",
   "capabilities": [
-    {"capability":"Pokédex list, names, numbers, types and artwork","source":"uploaded HTML/CSS/JS","outcome":"migrate","status":"pending","next_action":"Recreate in the current application"},
-    {"capability":"REST API and pagination through 151 Kanto Pokémon","source":"poke-api.js and main.js","outcome":"preserve","status":"pending","next_action":"Verify live PokéAPI requests and pagination"},
+    {"capability":"Pokédex list, names, numbers, types and artwork","source":"uploaded HTML/CSS/JS","outcome":"migrate","status":"verified","next_action":"None; all 151 rendered, artwork loaded and details checked in browser"},
+    {"capability":"REST API and pagination through 151 Kanto Pokémon","source":"poke-api.js and main.js","outcome":"preserve","status":"verified","next_action":"None; live API returned 200 and incremental loading reached all 151"},
     {"capability":"Database, records, auth, authorization, storage, external callbacks, webhooks, schedules and secrets","source":"inspected uploaded source","outcome":"not applicable","status":"verified","next_action":"None; the original is a public static API client"},
-    {"capability":"GitHub submission and attribution","source":"DIO assignment","outcome":"preserve","status":"pending","next_action":"Document attribution and GitHub handoff; user connects their repository"},
+    {"capability":"GitHub submission and attribution","source":"DIO assignment","outcome":"preserve","status":"pending","next_action":"Attribution and instructions ready in README; user must connect their own GitHub through project Settings → Git and submit repository URL to DIO"},
     {"capability":"Cutover","source":"unpublished project","outcome":"not applicable","status":"verified","next_action":"No existing production deployment supplied"}
   ]
 }
