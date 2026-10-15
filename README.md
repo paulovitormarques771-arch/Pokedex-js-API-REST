@@ -1,29 +1,36 @@
-# Welcome to your Lovable project
+# Pokédex de Kanto — Desafio DIO
 
-This project was built with [Lovable](https://lovable.dev).
+Pokédex desenvolvida para o desafio de projeto da Digital Innovation One, baseada nos arquivos do projeto [js-developer-pokedex](https://github.com/digitalinnovationone/js-developer-pokedex).
 
-## Build with Lovable
+## Funcionalidades
+- Catálogo dos 151 Pokémon da primeira geração.
+- Consumo da API REST pública [PokéAPI](https://pokeapi.co/) com `fetch`, requisições assíncronas e `Promise.all`.
+- Busca por nome ou número, filtros por qualquer tipo e ordenação.
+- Paginação incremental e detalhes com altura, peso, habilidades e estatísticas.
+- Layout adaptável a telas pequenas e grandes, navegação por teclado e tratamento de falhas da API.
+- Uma cópia pública dos dados permite explorar a coleção enquanto a API atualiza ou está indisponível.
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+## Tecnologias
+HTML semântico, CSS, JavaScript/TypeScript, React, TanStack Start, TanStack Query e Tailwind CSS. O original em JavaScript foi adaptado ao ambiente do Lovable; este repositório não é uma implementação exclusivamente em JavaScript puro.
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
-
+## Executar localmente
+Com Node.js e Bun instalados:
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
-npm run dev
+bun install
+bun run dev
+```
+Para os testes:
+```sh
+bun run test
 ```
 
-## Built with
+## Conceitos praticados
+Consumo de API REST, objetos e arrays, `map`, `filter`, ordenação, funções assíncronas, estados da interface, CSS Grid, acessibilidade e versionamento no Git/GitHub.
 
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
+## Entregar na DIO
+1. No Lovable, abra **Configurações do projeto → Git → GitHub** e conecte sua conta para criar seu próprio repositório.
+2. Confirme que o código e este README aparecem no seu repositório.
+3. Envie o endereço desse repositório na entrega do desafio da DIO. Se desejar, acrescente o link da versão publicada.
+
+## Créditos
+Projeto-base e desafio: [Digital Innovation One](https://github.com/digitalinnovationone/js-developer-pokedex). Dados: [PokéAPI](https://pokeapi.co/). Ilustrações oficiais provenientes do repositório de sprites da PokéAPI. Pokémon e os personagens pertencem à Nintendo, Game Freak e The Pokémon Company. Projeto educacional sem vínculo com essas empresas.
